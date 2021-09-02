@@ -1,0 +1,1180 @@
+/*------Add fonts------*/
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    src: url('../fonts/MuseoSansCyrl-100.eot');
+    src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 300';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 700';
+    src: url('../fonts/MuseoSansCyrl-700.eot');
+    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*------Specification------*/
+
+html {
+	overflow-x: hidden;
+}
+
+* {
+	font-size: 14px;
+}
+
+body {
+	min-width: 320px;
+	font-family: 'Museo Sans Cyrl 300';
+	line-height: 1.4em;
+	letter-spacing: 0;
+	overflow-x: hidden;
+}
+
+a {
+	transition: all .3s ease;
+}
+
+a:visited {
+	color: transparent;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Museo Sans Cyrl 700';
+	color: #081d42;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.btn {
+	background: #1cb883;
+	font-family: 'Museo Sans Cyrl 700';
+	color: #fff;
+	padding: 7px 0;
+	border-radius: 0;
+	box-shadow: 0px 4px 0px #149d6f;
+	display: block;
+	white-space: nowrap;
+}
+
+.btn:focus {
+	box-shadow: 0px 1px 0px #149d6f;
+}
+
+.btn:active {
+	box-shadow: 0px 1px 0px #149d6f;
+}
+
+.block-title {
+	color: #081d42;
+}
+
+.block__text {
+	color: #404048;
+	line-height: 1.2em;
+	margin-top: 10px;
+}
+
+.cf-plane {
+	padding: 0;
+	min-height: 400px;
+}
+
+.container {
+	
+}
+/*------#cc00ff Home Page #cc00ff-----*/
+/*------Header #cc00ff-----*/
+
+.header {
+	background: url('../img/first-bg.jpg') no-repeat center top/ cover;
+	position: relative;
+	box-shadow: inset 0 -16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.header__overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(165, 198, 255, 0.47);
+}
+
+.header__logo img {
+	max-width: 100%;
+	min-width: 140px;
+}
+
+.menu {
+	padding: 22px 0 11px 0;
+	background: rgba(191, 194, 200, .41);
+	border-bottom: 4px solid rgba(88, 100, 122, .21);
+	box-shadow: inset 0px 5px 0 #58647a;
+}
+
+.menu__list {
+	padding: 0 15px 0 17px;
+	font-family: 'Museo Sans Cyrl 700';
+}
+
+.menu__item {
+	transition: all 0.1s ease;
+	
+}
+
+.menu__item a {
+	border-bottom: 2px solid transparent;
+	font-size: 17px;
+	color: #3f4b60;
+}
+
+.menu__item a:hover {
+	border-bottom: 2px solid #3f4b60;
+}
+
+.menu__btn {
+	max-width: 156px;
+	width: 100%;
+	min-width: 137px;
+	font-size: 13px;
+	margin-left: auto;
+}
+
+.menu__btn i {
+	font-size: 13px;
+}
+
+.menu__btn:hover {
+	box-shadow: 0px 4px 7px #149d6f;
+	color: #fff;
+}
+
+.menu__btn i {
+	color: #46e6b0;
+}
+
+.hamburger i {
+	font-size: 26px;
+}
+
+.offer {
+	padding: 90px 0 150px 0;
+	color: #081d42;
+}
+
+.offer__title {
+	font-family: 'Museo Sans Cyrl 700';
+	font-size: 58px;
+}
+
+.offer__text {
+	font-size: 29px;
+	font-family: 'Museo Sans Cyrl 100';
+	line-height: 1.2em;
+	margin-top: 12px;
+	max-width: 500px;
+}
+
+.socials {
+	font-size: 17px;
+	background: rgba(255, 255, 255, 0.82);
+	background-clip: padding-box;
+	width: 170px;
+	padding: 8px 18px;
+	border: 3px solid rgba(255, 255, 255, 0.66);
+	border-radius: 3px;
+	margin-top: 30px;
+}
+
+.socials__icon i {
+	font-size: 17px;
+}
+
+.socials__icon {
+	border: 2px solid;
+	padding: 4px 5px 0 5px;
+
+}
+
+.socials__icon_fb {
+	color: #3d6ca8;
+}
+
+.socials__icon_fb:hover {
+	color: #3d6ca8;
+	border-radius: 10px;
+}
+
+.socials__icon_ttr {
+	color: #43c9fd;
+}
+
+.socials__icon_ttr:hover {
+	color: #43c9fd;
+	border-radius: 10px;
+}
+
+.socials__icon_tg {
+	color: #43c9fd;
+}
+
+.socials__icon_tg:hover {
+	color: #43c9fd;
+	border-radius: 10px;
+}
+
+/*------Trust #cc00ff-----*/
+
+.trust {
+	padding: 50px 0 100px 0;
+	text-align: center;
+	background: #f1f1f3;
+	color: #081d42;
+	position: relative;
+}
+
+.sec-title {
+	font-size: 29px;
+}
+
+.reasons {
+	margin-top: 40px;
+}
+
+.reasons__item {
+	padding: 0 10px;
+}
+
+.reasons__item_middle {
+	padding: 0 20px;
+}
+
+.reasons__icon {
+	background: #c8cbdb;
+	width: 119px;
+	border-radius: 50%;
+	height: 119px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.reasons__title {
+	font-size: 21px;
+	margin-top: 23px;
+}
+
+.trust__btn {
+	width: 170px;
+	background: #1cb883;
+	font-family: 'Museo Sans Cyrl 700';
+	color: #fff;
+	padding: 7px 0;
+	border-radius: 0;
+	padding: 10px 0;
+	position: absolute;
+	left: calc(50% - 85px);
+	bottom: -25px;
+	font-size: 16px;
+	transition: all 0.5s ease;
+}
+
+.trust__btn:hover {
+    box-shadow: 0 -2px 10px #0f4a369e;
+    color: #fff;
+}
+
+/*------Letters #cc00ff-----*/
+
+.letters {
+	padding: 105px 0 78px 0;
+	text-align: center;
+}
+
+.letter {
+	padding: 0 7px;
+}
+
+.letter__icon {
+	font-family: 'Museo Sans Cyrl 100';
+	width: 86px;
+	height: 86px;
+	background: #102e62;
+	color: #fff;
+	font-size: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 85px;
+	margin: 0 auto;
+}
+
+.letter__title {
+	margin-top: 10px;
+	font-family: 'Museo Sans Cyrl 100';
+	font-size: 24px;
+}
+
+.letter__title:first-letter {
+	color: #b81c31;
+}
+
+.letter__text {
+	margin-top: 10px;
+}
+
+/*------Info #cc00ff-----*/
+
+.info {
+	padding: 27px 0 40px 0;
+	background: url('../img/mission-bg.jpg') no-repeat center top/ cover;
+}
+
+.fourth-sec__title {
+	font-size: 23px;
+	font-family: 'Museo Sans Cyrl 700';
+	color: #aaafb8;
+	border-bottom: 3px solid #6f7a8c;
+	padding-bottom: 15px;
+}
+
+.mission__text {
+	color: #c4c8d0;
+	font-size: 15px;
+	line-height: 1.2em;
+}
+
+.mission__text p {
+	font-size: 15px;
+}
+
+.mission__par {
+	margin-top: 15px;
+}
+
+.mission__text_left {
+	max-width: 470px;
+}
+
+.mission__text_right {
+	max-width: 370px;
+}
+
+.mission__btn {
+	color: #dadce0;
+	border: 2px solid #dadce0;
+	display: block;
+	width: 170px;
+	line-height: 39px;
+	font-family: 'Museo Sans Cyrl 700';
+	text-align: center;
+	margin-top: 45px;
+	font-size: 16px;
+}
+
+.mission__btn:hover {
+	background: #dadce0;
+	color: #606b80;
+}
+
+.news__item {
+	position: relative;
+}
+
+.news__item a {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 15px 0;
+}
+
+.news__item:after {
+	content: '';
+	width: 270px;
+	height: 1px;
+	background: #6b768a;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.news__img {
+	width: 55px;
+	height: 55px;
+	object-fit: cover;
+}
+
+.news__text {
+	max-width: 177px;
+	margin-left: 10px;
+}
+
+.news__title {
+	color: #dcdee2;
+	font-size: 13px;
+}
+
+.news__date {
+	font-size: 11px;
+	color: #a2a8b3;
+	font-family: 'Museo Sans Cyrl 100';
+}
+
+/*------Site map #cc00ff-----*/
+
+.site-map {
+	background: #3a4456;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.site-map__item {
+	margin-top: 30px;
+}
+
+.site-map__title a {
+	color: #c9cace;
+	font-size: 19px;
+}
+
+.site-map__title a:hover {
+	border-bottom: 1px solid;
+}
+
+.links__list {
+	font-family: 'Museo Sans Cyrl 300';
+	padding: 0;
+	margin-top: 18px;
+}
+
+.links__item a {
+	color: #c9cace;
+}
+
+.links__item a:hover {
+	color: #eff0f2;
+}
+
+/*------Footer #cc00ff-----*/
+
+.footer {
+	background: #1f2531;
+	line-height: 1.1em;
+	color: #aaabae;
+	padding: 30px 0 60px 0;
+	box-shadow: inset 0 -18px 0px #58647a;
+	font-family: 'Museo Sans Cyrl 100';
+}
+
+.footer__logo img {
+	margin-top: -30px;
+}
+
+.collab__text {
+	max-width: 220px;
+	font-size: 12px;
+}
+
+.collab__address {
+	max-width: 120px;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.dev__icon {
+	font-size: 15px;
+	border: 1px solid;
+	padding: 3px 5px;
+	align-self: flex-start;
+	margin-top: 3px;
+}
+
+.dev__sign {
+	margin-left: 9px;
+	font-size: 11px;
+	max-width: 150px;
+}
+
+.dev__sign span {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.secure {
+	margin-top: 20px;
+	max-width: 145px;
+}
+
+.secure p {
+	font-size: 12px;
+}
+
+.secure a {
+	color: #8f9195;
+	font-size: 12px;
+	border-bottom: 1px solid;
+}
+
+.secure__text span {
+	font-family: 'Museo Sans Cyrl 700';
+}
+
+.footer__btn {
+	width: 156px;
+	transition: all 0.5s ease;
+}
+
+.footer__btn:hover {
+	box-shadow: 0px 4px 11px #26d89c;
+	color: #fff;
+}
+
+/*------#cc00ff About Page #cc00ff-----*/
+/*------Header-alt #cc00ff-----*/
+
+.header-alt {
+	background: #fafafb;
+	box-shadow: inset 0 112px #f1f1f3;
+}
+
+.pagination {
+	padding: 62px 0;
+}
+
+.page-info__name {
+	font-size: 38px;
+}
+
+.breadcrumbs span, .breadcrumbs p {
+	font-size: 15px;
+	color: #7e838d;
+}
+
+.breadcrumbs span {
+	margin: 0 7px;
+}
+
+.breadcrumbs a {
+	font-size: 15px;
+	color: #49556b;
+	border-bottom: 1px solid #49556b;
+}
+
+.breadcrumbs a:hover {
+	color: #2262d7;
+	border-bottom: 1px solid #2262d7;
+}
+
+li.active a {
+	color: #b81c31;
+	border: 2px solid #b81c31;
+}
+
+.second-menu__item a {
+	font-family: 'Museo Sans Cyrl 700';
+	padding: 10px 15px;
+	display: block;
+	border: 2px solid #fafafb;
+	transition: all 0.1s ease;
+	color: #a1a6af;
+	font-size: 16px;
+}
+
+.second-menu__item a:hover {
+	color: #b81c31;
+	border: 2px solid #b81c31;
+}
+
+.second-menu__item span {
+	display: block;
+}
+
+/*------Advant #cc00ff-----*/
+
+.advants {
+	padding-top: 56px;
+	letter-spacing: 0.035em;
+}
+
+.advants p {
+	color: #404048;
+}
+
+.advants__list {
+	margin-top: 50px;
+}
+
+.advant__item {
+	background: url('../img/LIbra.png') no-repeat left 40px;
+	padding: 37px 0 33px 100px;
+	position: relative;
+	border-bottom: 2px solid #e5e6e8;
+}
+
+.advant__item_first {
+	border-top: 2px solid #e5e6e8;
+}
+
+.advant__text {
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.3em;
+}
+
+.advant__title {
+	font-size: 18px;
+}
+
+.advant__sign {
+	margin-top: 12px;
+	line-height: 1.3em;
+}
+
+/*------Advant #cc00ff-----*/
+
+.power {
+	padding-top: 80px;
+	padding-bottom: 48px;
+	letter-spacing: 0.035em;
+}
+
+.power__list {
+	margin-top: 38px;
+}
+
+.power__item {
+	position: relative;
+	max-width: 440px;
+	margin: 0 auto 22px;
+}
+
+.power__item img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.power__overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	background: rgba(58, 68, 86, 0.69);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.power__overlay i {
+	color: #fff;
+	font-size: 29px;
+	opacity: 1;
+}
+
+.power__item:hover .power__overlay {
+	 opacity: 1;
+	 border: 7px solid #9a97a7;
+}
+
+
+/*------#cc00ff Services Page #cc00ff-----*/
+/*------Acomp #cc00ff-----*/
+
+.acomp {
+	padding: 40px 0;
+	background: url('../img/accomp-bg.jpg') no-repeat fixed center top/ cover;
+}
+
+.acomp__icon {
+	border-radius: 50%;
+}
+
+.acomp__info {
+	color: #fff;
+}
+
+.acomp__title {
+	color: #fff;
+	font-size: 25px;
+}
+
+.acomp__sign {
+	margin-top: 15px;
+}
+
+.categ__list {
+	border: 2px solid #9b9faa;
+	border-radius: 5px;
+	padding: 18px 0 22px 28px;
+}
+
+.categ__item {
+	margin-bottom: 10px;
+}
+
+.categ__item a {
+	color: #fff;
+	font-size: 15px;
+}
+
+.categ__item a:hover {
+	border-bottom: 1px solid;
+}
+
+.categ__item:last-child {
+	margin-bottom: 0;
+}
+
+/*------Subcat #cc00ff-----*/
+
+.subcat {
+	letter-spacing: 0.035em;
+}
+
+.subcat-left, .subcat-right {
+	padding: 54px 0;
+}
+
+.subcat__text {
+	font-size: 15px;
+	margin-bottom: 18px;
+}
+
+.subcat__text_first {
+	margin-top: 24px;
+}
+
+.s-offer {
+	background: url('../img/consultation.png') no-repeat 92% 89%;
+	padding: 28px;
+	max-width: 470px;
+	margin-top: 40px;
+	border: 2px solid #e3e4e6;
+	border-radius: 5px;
+}
+
+.s-offer__title {
+	font-size: 16px;
+}
+
+.s-offer__btn {
+	color: #b81c31;
+	background: transparent;
+	box-shadow: none;
+	border: 2px solid;
+	border-radius: 3px;
+	margin-top: 14px;
+	line-height: 38px;
+	display: inline-block;
+	padding: 0 18px;
+	text-align: center;
+	font-family: 'Museo Sans Cyrl 700';
+}
+
+.s-offer__btn:hover {
+	background: #b81c31;
+	color: #fff;
+	border: 2px solid #b81c31;
+	border-radius: 3px;
+}
+
+.s-offer__tel {
+	margin-left: 10px;
+	color: #585f6b;
+	font-family: 'Museo Sans Cyrl 700';
+}
+
+.s-offer__info {
+	max-width: 240px;
+	font-size: 12px;
+	margin-top: 14px;
+}
+
+.subcat-right {
+	background: #fafafb;
+	height: 100%;
+}
+
+.subcat-right__item a {
+	max-width: 200px;
+}
+
+.subcat-right__title {
+	font-size: 18px;
+	color: #969ca9;
+	margin-left: 26px;
+	text-align: left;
+}
+
+.subcat-right__list {
+	margin-top: 43px;
+	padding-left: 0;
+}
+
+.subcat-right__item_first {
+	border-top: 1px solid #dfdfe8;
+}
+
+.subcat-right__item {
+	padding: 18px 20px 18px 26px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	border-bottom: 1px solid #dfdfe8;
+}
+
+.subcat-right__item a {
+	color: #747487;
+	font-size: 15px;
+	font-family: 'Museo Sans Cyrl 700';
+}
+
+.subcat-right__item a:hover {
+	color: #000;
+	border-bottom: 1px solid;
+}
+
+.subcat-right__item span {
+	display: inline-block;
+	background: #aeaeb9;
+	width: 11px;
+	height: 11px;
+	margin-right: 17px;
+	margin-top: 4px;
+	border-radius: 1px;
+}
+
+.subcat-right__feedback {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.feedback__carousel {
+	margin-top: 35px;
+}
+
+.feedback__carousel i {
+	font-size: 25px;
+	color: #404048;
+}
+
+.feedback__icon {
+	margin: 0 auto;
+}
+
+.feedback__name {
+	font-size: 15px;
+	margin-top: 12px;
+}
+
+.feedback__sign {
+	font-size: 13px;
+	padding: 0 40px;
+}
+
+.feedback__socials i {
+	color: #404048;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.feedback__socials i:hover {
+	color: #2c60a0;
+	border: 2px solid #2c60a0;
+}
+
+.rect__list {
+	margin-top: 18px;
+}
+
+.rect__item {
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background: #bdc5d6;
+}
+
+.rect__item_active {
+	background: #8b9ab7;
+}
+
+/*------#cc00ff Contacts Page #cc00ff-----*/
+/*------Map #cc00ff-----*/
+
+.iframe-map {
+	min-height: 440px;
+	position: relative;
+}
+
+.all-contacts {
+	background: rgba(88, 100, 122, 0.75);
+	padding: 20px 30px;
+	position: absolute;
+	top: -360px;
+	right: 0;
+}
+
+.all-contacts:after {
+	right: 100%;
+	top: 14px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: rgba(88, 100, 122, 0.75);
+	border-width: 30px;
+	margin-top: 0px;
+
+}
+
+.all-contacts__top {
+	border-bottom: 2px solid #9aa1ad;
+	padding-bottom: 18px;
+}
+
+.all-contacts__title {
+	font-size: 21px;
+	color: #fff;
+}
+
+.all-contacts__socials a {
+	color: #fff;
+	padding: 8px 3px 6px 6px;
+	border: 2px solid #fff;
+	margin-left: 20px;
+}
+
+.all-contacts__socials:first-child a {
+	margin-left: 0;
+}
+
+.all-contacts__socials a:last-child {
+	padding-right: 9px;
+}
+
+.all-contacts__socials > a > i {
+	font-size: 17px;
+}
+
+.all-contacts__fb:hover {
+	color: #3d6ca8;
+	border: 2px solid #3d6ca8;
+}
+
+.all-contacts__ttr:hover {
+	color: #43c9fd;
+	border: 2px solid #43c9fd;
+}
+
+.all-contacts__tg:hover {
+	color: #43c9fd;
+	border: 2px solid #43c9fd;
+}
+
+.all-contacts__bottom {
+	margin-top: 40px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.all-contacts__list {
+	padding: 0;
+}
+
+.all-contacts__item {
+	margin-bottom: 8px;
+	display: flex;
+}
+
+.all-contacts__item:nth-child(3) {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 175px;
+}
+
+.all-contacts__item a {
+	color: #fff;
+	font-family: 'Museo Sans Cyrl 300';
+	font-size: 16px;
+}
+
+.all-contacts__item:last-child a {
+	white-space: nowrap;
+}
+
+.all-contacts__item i {
+	font-size: 16px;
+	color: #fff;
+	margin-right: 5px;
+}
+
+.all-contacts__text {
+	margin-left: 25px;
+}
+
+.all-contacts__par {
+	font-size: 12px;
+	color: #e2e4e7;
+	width: 185px;
+}
+
+.all-contacts__par_first {
+	margin-bottom: 16px;
+}
+
+/* orange Modal orange */
+
+.box-modal {
+	position: relative;
+	width: 410px;
+	padding: 45px 52px 52px 52px;
+	background: #fff;
+	color: #081d42;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+.modal__title {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+
+.modal__sign {
+	color: #404048;
+	font-size: ;
+}
+
+.box-modal input {
+	width: 100%;
+	padding: 14px 0;
+	border: none;
+	color: #9e9ea1;
+	border-bottom: 1px solid #757888;
+	outline: none;
+}
+
+.modal__btn {
+	margin-top: 29px;
+	width: 100%;
+}
+
+.modal__btn:hover {
+	color: #fff;
+	box-shadow: 0px 4px 7px #149d6f;
+}
+
+/* orange Slick Slider orange */
+
+.slick-slide {
+	outline: none;
+}
+
+.slick-prev i, .slick-next i {
+	font-size: 25px;
+	color: #404048;
+}
+
+.slider:focus {
+	outline: none;
+}
+
+.slick-dots li button:before {
+    content: '';
+    text-align: center;
+    opacity: 1;
+    background: #bdc5d6;
+	width: 11px;
+	height: 11px;
+}
+
+.slick-dots li.slick-active button:before {
+	background: #8b9ab7;
+	opacity:;
+}
+
+.slick-prev, .slick-next {
+	transition: 0.5s ease;
+}
+
+.slick-prev {
+	left: 20px;
+	z-index: 2;
+}
+
+.slick-prev:hover {
+	left: 15px;
+}
+
+.slick-next {
+	right: 20px;
+}
+
+.slick-next:hover {
+	right: 15px;
+}
+
+.slick-prev:before {
+	display: none;
+}
+
+.slick-next:before {
+	display: none;
+}
+
+.order {
+    order: 1;
+}
